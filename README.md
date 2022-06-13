@@ -5,7 +5,9 @@ A pangenomics pipeline tailored for arboviruses.
 ## Usage
 The pipeline only supports conda environments at the moment.
 
-
+```bash
+nextflow run mbbu/arbopan -profile conda --input "sample_data/*.fa" --results "sample_results" -r main
+```
 
 ## References
 1. [vgteam/vg](https://github.com/vgteam/vg): Variation graph toolkit.
